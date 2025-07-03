@@ -13,7 +13,7 @@ cask "cosine-nightly" do
   name "Cosine CLI Nightly"
   desc "Nightly builds of the Cosine CLI"
 
-  depends_on cask: ["fzf", "ripgrep"]
+  depends_on formula: ["fzf", "ripgrep"]
 
   binary "cosine"
   binary "cosine", target: "cos"

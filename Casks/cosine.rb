@@ -14,7 +14,7 @@ cask "cosine" do
   name "Cosine CLI"
   desc "CLI for granting Genie access to your local machine"
 
-  depends_on cask: ["fzf", "ripgrep"]
+  depends_on formula: ["fzf", "ripgrep"]
 
   binary "cosine"
   binary "cosine", target: "cos"

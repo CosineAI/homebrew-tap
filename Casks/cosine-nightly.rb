@@ -1,6 +1,6 @@
 cask "cosine-nightly" do
   arch arm: "arm64", intel: "x86_64"
-  version "nightly-0"
+  version "nightly-79"
 
   on_intel do
     url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-darwin-amd64.zip"

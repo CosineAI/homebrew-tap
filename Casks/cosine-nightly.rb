@@ -3,10 +3,20 @@ cask "cosine-nightly" do
   version "nightly-80"
 
   on_intel do
-    url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-darwin-amd64.zip"
+    on_macos do
+      url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-darwin-amd64.zip"
+    end
+    on_linux do
+      url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-linux-amd64.zip"
+    end
   end
   on_arm do
-    url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-darwin-arm64.zip"
+    on_macos do
+      url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-darwin-arm64.zip"
+    end
+    on_linux do
+      url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-linux-arm64.zip"
+    end
   end
   sha256 :no_check
 

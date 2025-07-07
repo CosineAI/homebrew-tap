@@ -1,6 +1,6 @@
 cask "cosine-nightly" do
   arch arm: "arm64", intel: "x86_64"
-  version "nightly-84"
+  version "nightly-85"
 
   on_intel do
     on_macos do

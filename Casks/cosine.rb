@@ -4,22 +4,22 @@ cask "cosine" do
 
   on_intel do
     on_macos do
-      url "https://github.com/CosineAI/cli/releases/download/0.1.1/cosine-darwin-amd64.zip"
-      sha256 "f9cbf9c86ced7101f04c60be29e39a050ac6efec70c59d8dd84ad51d35ff69e3"
+          url "https://github.com/CosineAI/cli/releases/download/0.1.1/cosine-darwin-amd64.zip"
+          sha256 "f363ac354250ca53e76caf1582a6eb2728880dc4ae389acfbe7992a01aab4a57"
     end
     on_linux do
-      url "https://github.com/CosineAI/cli/releases/download/0.1.1/cosine-linux-amd64.zip"
-      sha256 ""
+          url "https://github.com/CosineAI/cli/releases/download/0.1.1/cosine-darwin-amd64.zip"
+          sha256 "f363ac354250ca53e76caf1582a6eb2728880dc4ae389acfbe7992a01aab4a57"
     end
   end
   on_arm do
     on_macos do
-      url "https://github.com/CosineAI/cli/releases/download/0.1.1/cosine-darwin-arm64.zip"
-      sha256 "70fc97a62e577baeb1dbdd398d832da495ab8b94188b5ba09bc65473b6bc1492"
+          url "https://github.com/CosineAI/cli/releases/download/0.1.1/cosine-darwin-arm64.zip"
+          sha256 "4ed93ad77d8c248b7091842ac043edbb7926b06749a5fdf188d9ed5919642c13"
     end
     on_linux do
-      url "https://github.com/CosineAI/cli/releases/download/0.1.1/cosine-linux-arm64.zip"
-      sha256 ""
+          url "https://github.com/CosineAI/cli/releases/download/0.1.1/cosine-darwin-arm64.zip"
+          sha256 "4ed93ad77d8c248b7091842ac043edbb7926b06749a5fdf188d9ed5919642c13"
     end
   end
 

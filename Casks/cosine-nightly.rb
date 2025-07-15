@@ -25,6 +25,5 @@ cask "cosine-nightly" do
 
   depends_on formula: ["fzf", "ripgrep"]
 
-  binary "cosine"
-  binary "cosine", target: "cos"
+  binary "cosine", target: "cosine-nightly"
 end

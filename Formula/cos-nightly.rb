@@ -7,7 +7,7 @@ class CosNightly < Formula
   version "nightly-117"
   license "Apache 2.0"
 
-  depends_on formula: ["fzf", "ripgrep"]
+  depends_on: ["fzf", "ripgrep"]
 
   on_macos do
     if Hardware::CPU.arm?

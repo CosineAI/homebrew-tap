@@ -3,7 +3,7 @@
 
 class Cos < Formula
   version "0.1.2"
-  licence "Apache 2.0"
+  license "Apache 2.0"
 
   on_intel do
     on_linux do

@@ -3,7 +3,7 @@
 
 class CosNightly < Formula
   version "nightly-117"
-  licence "Apache 2.0"
+  license "Apache 2.0"
 
   on_intel do
     on_linux do

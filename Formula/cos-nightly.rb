@@ -2,7 +2,6 @@
 # frozen_string_literal: true
 
 class CosNightly < Formula
-  arch arm: "arm64", intel: "x86_64"
   version "nightly-117"
   licence "Apache 2.0"
 

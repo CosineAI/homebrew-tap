@@ -2,7 +2,6 @@
 # frozen_string_literal: true
 
 class Cos < Formula
-  arch arm: "arm64", intel: "x86_64"
   version "0.1.2"
   licence "Apache 2.0"
 

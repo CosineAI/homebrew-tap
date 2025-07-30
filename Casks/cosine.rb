@@ -3,10 +3,6 @@ cask "cosine" do
   version "0.1.2"
 
   on_intel do
-    on_macos do
-              url "https://github.com/CosineAI/cli/releases/download/0.1.2/cosine-darwin-amd64.zip"
-              sha256 "4cc6351f20199a347a90da7dff62592a998590b0bf2efd211e2f50a9b6892258"
-    end
     on_linux do
               url "https://github.com/CosineAI/cli/releases/download/0.1.2/cosine-darwin-amd64.zip"
               sha256 "4cc6351f20199a347a90da7dff62592a998590b0bf2efd211e2f50a9b6892258"

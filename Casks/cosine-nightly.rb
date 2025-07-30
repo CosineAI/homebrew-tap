@@ -3,9 +3,6 @@ cask "cosine-nightly" do
   version "nightly-114"
 
   on_intel do
-    on_macos do
-      url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-darwin-amd64.zip"
-    end
     on_linux do
       url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-linux-amd64.zip"
     end

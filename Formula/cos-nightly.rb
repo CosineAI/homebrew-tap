@@ -12,7 +12,6 @@ class CosNightly < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-darwin-arm64.zip"
-      sha256 :no_check
       def install
         bin.install "cosine" => "cos-nightly"
       end
@@ -22,14 +21,12 @@ class CosNightly < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-linux-amd64.zip"
-      sha256 :no_check
       def install
         bin.install "cosine" => "cos-nightly"
       end
     end
     if Hardware::CPU.arm?
       url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-linux-arm64.zip"
-      sha256 :no_check
       def install
         bin.install "cosine" => "cos-nightly"
       end

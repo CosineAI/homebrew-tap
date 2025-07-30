@@ -36,7 +36,4 @@ class CosNightly < Formula
      end
    end
 
-
-  bin.install "cos" => "cos-nightly"
-
 end

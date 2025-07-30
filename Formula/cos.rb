@@ -1,6 +1,10 @@
-cask "cosine" do
+# typed: false
+# frozen_string_literal: true
+
+class Cos < Formula
   arch arm: "arm64", intel: "x86_64"
   version "0.1.2"
+  licence "Apache 2.0"
 
   on_intel do
     on_linux do
@@ -24,6 +28,5 @@ cask "cosine" do
 
   depends_on formula: ["fzf", "ripgrep"]
 
-  binary "cosine"
-  binary "cosine", target: "cos"
+  bin.install "cos"
 end

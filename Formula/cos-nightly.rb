@@ -1,6 +1,10 @@
-cask "cosine-nightly" do
+# typed: false
+# frozen_string_literal: true
+
+class Cos-nightly < Formula
   arch arm: "arm64", intel: "x86_64"
   version "nightly-114"
+  licence "Apache 2.0"
 
   on_intel do
     on_linux do
@@ -22,5 +26,6 @@ cask "cosine-nightly" do
 
   depends_on formula: ["fzf", "ripgrep"]
 
-  binary "cosine", target: "cosine-nightly"
+  bin.install "cos" => "cos-nightly"
+
 end

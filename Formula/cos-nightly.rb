@@ -4,7 +4,7 @@
 class CosNightly < Formula
   desc "Nightly builds of the Cosine CLI"
   homepage "https://cosine.sh/cli"
-  version "nightly-123"
+  version "nightly-124"
   license "Apache 2.0"
 
   depends_on ["fzf", "ripgrep"]

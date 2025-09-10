@@ -4,15 +4,15 @@
 class Cos < Formula
   desc "The Cosine CLI"
   homepage "https://cosine.sh/cli"
-  version "1.0.0"
+  version "1.0.1"
   license "Apache 2.0"
 
   depends_on ["fzf", "ripgrep"]
 
   on_macos do
     if Hardware::CPU.arm?
-                                          url "https://github.com/CosineAI/cli/releases/download/1.0.0/cosine-darwin-arm64.zip"
-                                          sha256 "7448c847db667060eb2d6f69c7809161d57f8f20c2f74245ceec5f67552cc12f"
+                                                url "https://github.com/CosineAI/cli/releases/download/1.0.1/cosine-darwin-arm64.zip"
+                                                sha256 "366990b87484b76f170cdb89f7c2ce77dbebe293edfbcddd77e2f0cb650863f5"
       def install
         bin.install "cos"
       end
@@ -21,15 +21,15 @@ class Cos < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-                                          url "https://github.com/CosineAI/cli/releases/download/1.0.0/cosine-linux-amd64.zip"
-                                          sha256 "afb15af6db3f2b997d3f939ed3aaf58301f7c89121a64aadec11919f362dbc95"
+                                                url "https://github.com/CosineAI/cli/releases/download/1.0.1/cosine-linux-amd64.zip"
+                                                sha256 "0f008c7a9e55028efa1c7d787f868af12a7f44fc020d3ef359aa6f45504bc6f5"
       def install
         bin.install "cos"
       end
     end
     if Hardware::CPU.arm?
-                                          url "https://github.com/CosineAI/cli/releases/download/1.0.0/cosine-linux-arm64.zip"
-                                          sha256 "a921b5184aca73f85dd4bef930afcebacaa44c18b4c1e86d1f214644aadcccc3"
+                                                url "https://github.com/CosineAI/cli/releases/download/1.0.1/cosine-linux-arm64.zip"
+                                                sha256 "78e255332187f317da6f6f4dc8df2eb5b4d6c44b8558625eedc9d0d2d96c6028"
       def install
         bin.install "cos"
       end

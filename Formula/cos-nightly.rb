@@ -13,7 +13,7 @@ class CosNightly < Formula
     if Hardware::CPU.arm?
       url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-darwin-arm64.zip"
       def install
-        bin.install "cosine" => "cos-nightly"
+        bin.install "cos" => "cos-nightly"
       end
     end
   end
@@ -22,13 +22,13 @@ class CosNightly < Formula
     if Hardware::CPU.intel?
       url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-linux-amd64.zip"
       def install
-        bin.install "cosine" => "cos-nightly"
+        bin.install "cos" => "cos-nightly"
       end
     end
     if Hardware::CPU.arm?
       url "https://github.com/CosineAI/cli/releases/download/nightly/cosine-linux-arm64.zip"
       def install
-        bin.install "cosine" => "cos-nightly"
+        bin.install "cos" => "cos-nightly"
       end
      end
    end

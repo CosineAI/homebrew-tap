@@ -4,15 +4,15 @@
 class Cos < Formula
   desc "The Cosine CLI"
   homepage "https://cosine.sh/cli"
-  version "1.0.4"
+  version "1.0.5"
   license "Apache 2.0"
 
   depends_on ["fzf", "ripgrep"]
 
   on_macos do
     if Hardware::CPU.arm?
-                                                                  url "https://github.com/CosineAI/cli/releases/download/1.0.4/cosine-darwin-arm64.zip"
-                                                                  sha256 "b4b357e900f7660269d8758d0387f0664b5113b21d81c874b891c2e3215b398b"
+                                                                        url "https://github.com/CosineAI/cli/releases/download/1.0.5/cosine-darwin-arm64.zip"
+                                                                        sha256 "f2915b787b1bcb10556018e5244d4005c1e59bdc8eb913a630d818dd6f390a35"
       def install
         bin.install "cos"
       end
@@ -21,15 +21,15 @@ class Cos < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-                                                                  url "https://github.com/CosineAI/cli/releases/download/1.0.4/cosine-linux-amd64.zip"
-                                                                  sha256 "80b098c49813e2be8e45f586c7c7b2880223ab82530fedb1c3061b07a9028bf2"
+                                                                        url "https://github.com/CosineAI/cli/releases/download/1.0.5/cosine-linux-amd64.zip"
+                                                                        sha256 "ee477c4c77d8eb75983eb8d27bc44625908d8a54e73ed91599f7cee2619a0208"
       def install
         bin.install "cos"
       end
     end
     if Hardware::CPU.arm?
-                                                                  url "https://github.com/CosineAI/cli/releases/download/1.0.4/cosine-linux-arm64.zip"
-                                                                  sha256 "f65a14965a882dcce549a7a6bc90fc35781806ccb80ad48a46a053eb206ac093"
+                                                                        url "https://github.com/CosineAI/cli/releases/download/1.0.5/cosine-linux-arm64.zip"
+                                                                        sha256 "21ac2f1bf29bf4c8be4515e05b590ed28bb84abab7137b24380b25802bc18de7"
       def install
         bin.install "cos"
       end

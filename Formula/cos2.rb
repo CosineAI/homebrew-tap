@@ -1,7 +1,7 @@
 # typed: false
 # frozen_string_literal: true
 
-class CosNightly < Formula
+class Cos2 < Formula
   desc "Nightly builds of the Cosine CLI"
   homepage "https://cosine.sh/cli"
   version "nightly-1"

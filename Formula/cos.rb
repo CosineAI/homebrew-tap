@@ -7,7 +7,8 @@ class Cos < Formula
   version "1.15.2"
   license "Apache 2.0"
 
-  depends_on ["fzf", "ripgrep"]
+  depends_on "fzf"
+  depends_on "ripgrep"
 
   on_macos do
     if Hardware::CPU.arm?

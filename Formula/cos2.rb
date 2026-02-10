@@ -7,9 +7,6 @@ class Cos2 < Formula
   version "nightly-145"
   license "Apache 2.0"
 
-  depends_on "fzf"
-  depends_on "ripgrep"
-
   on_macos do
     if Hardware::CPU.arm?
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   url "https://github.com/CosineAI/cli2/releases/download/nightly/cos2-darwin-arm64.zip"

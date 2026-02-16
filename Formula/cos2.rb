@@ -9,7 +9,7 @@ class Cos2 < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        url "https://github.com/CosineAI/cli2/releases/download/nightly/cos2-darwin-arm64.zip"
+      url "https://github.com/CosineAI/cli2/releases/download/nightly/cos2-darwin-arm64.zip"
       def install
         bin.install "cos2" => "cos2"
       end

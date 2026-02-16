@@ -1,7 +1,7 @@
 class CosBeta < Formula
   desc "Beta builds of the Cosine CLI"
   homepage "https://cosine.sh/cli"
-  version "nightly-145"
+  version "v2.0.0-beta1"
   license "Apache 2.0"
 
   on_macos do

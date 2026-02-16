@@ -6,6 +6,7 @@ class CosBeta < Formula
 
   on_macos do
     if Hardware::CPU.arm?
+      url "https://github.com/CosineAI/cli2/releases/download/nightly/cos2-darwin-arm64.zip"
       def install
         bin.install "cos2" => "cos-beta"
       end
@@ -14,11 +15,13 @@ class CosBeta < Formula
 
   on_linux do
     if Hardware::CPU.intel?
+      url "https://github.com/CosineAI/cli2/releases/download/nightly/cos2-darwin-arm64.zip"
       def install
         bin.install "cos2" => "cos-beta"
       end
     end
     if Hardware::CPU.arm?
+      url "https://github.com/CosineAI/cli2/releases/download/nightly/cos2-darwin-arm64.zip"
       def install
         bin.install "cos2" => "cos-beta"
       end

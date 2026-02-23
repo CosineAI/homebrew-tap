@@ -1,12 +1,12 @@
 class CosBeta < Formula
   desc "Beta builds of the Cosine CLI"
   homepage "https://cosine.sh/cli"
-  version "v2.0.0-beta7"
+  version "v2.0.0-beta8"
   license "Apache 2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/CosineAI/cli2/releases/download/v2.0.0-beta7/cos2-darwin-arm64.zip"
+      url "https://github.com/CosineAI/cli2/releases/download/v2.0.0-beta8/cos2-darwin-arm64.zip"
       def install
         bin.install "cos2" => "cos-beta"
       end
@@ -15,13 +15,13 @@ class CosBeta < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/CosineAI/cli2/releases/download/v2.0.0-beta7/cos2-linux-amd64.zip"
+      url "https://github.com/CosineAI/cli2/releases/download/v2.0.0-beta8/cos2-linux-amd64.zip"
       def install
         bin.install "cos2" => "cos-beta"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/CosineAI/cli2/releases/download/v2.0.0-beta7/cos2-linux-arm64.zip"
+      url "https://github.com/CosineAI/cli2/releases/download/v2.0.0-beta8/cos2-linux-arm64.zip"
       def install
         bin.install "cos2" => "cos-beta"
       end

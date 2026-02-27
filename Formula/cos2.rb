@@ -4,7 +4,7 @@
 class Cos2 < Formula
   desc "Nightly builds of the Cosine CLI"
   homepage "https://cosine.sh/cli"
-  version "nightly-314"
+  version "nightly-315"
   license "Apache 2.0"
 
   on_macos do

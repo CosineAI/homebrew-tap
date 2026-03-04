@@ -4,11 +4,11 @@
 class Cos < Formula
   desc "The Cosine CLI"
   homepage "https://cosine.sh/cli"
-  version "v2.0.0-beta16"
+  version "v2.0.0-beta17"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://software.cosine.sh/cli/release/v2.0.0-beta16/cos-darwin-arm64.zip"
+      url "https://software.cosine.sh/cli/release/v2.0.0-beta17/cos-darwin-arm64.zip"
       def install
         bin.install "cos"
       end
@@ -17,13 +17,13 @@ class Cos < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://software.cosine.sh/cli/release/v2.0.0-beta16/cos-linux-amd64.zip"
+      url "https://software.cosine.sh/cli/release/v2.0.0-beta17/cos-linux-amd64.zip"
       def install
         bin.install "cos"
       end
     end
     if Hardware::CPU.arm?
-      url "https://software.cosine.sh/cli/release/v2.0.0-beta16/cos-linux-arm64.zip"
+      url "https://software.cosine.sh/cli/release/v2.0.0-beta17/cos-linux-arm64.zip"
       def install
         bin.install "cos"
       end

@@ -4,11 +4,11 @@
 class Cos2 < Formula
   desc "Nightly builds of the Cosine CLI"
   homepage "https://cosine.sh/cli"
-  version "nightly-1130"
+  version "nightly-1132"
 
   on_macos do
     if Hardware::CPU.arm?
-            url "https://software.cosine.sh/cli/nightly/nightly-1130/cos-darwin-arm64.zip"
+            url "https://software.cosine.sh/cli/nightly/nightly-1132/cos-darwin-arm64.zip"
       def install
         bin.install "cos" => "cos2"
       end

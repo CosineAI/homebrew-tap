@@ -4,19 +4,19 @@
 class Cos < Formula
   desc "The Cosine CLI"
   homepage "https://cosine.sh/cli"
-  version "2.0.30"
+  version "2.0.31"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://software.cosine.sh/cli/release/2.0.30/cos-darwin-amd64.zip"
-      sha256 "db452e3b6f36186c71d55825a4afe261ecb88f389b3393f2ec46f4b4e7f9fc55"
+      url "https://software.cosine.sh/cli/release/2.0.31/cos-darwin-amd64.zip"
+      sha256 "6d374a65826b48f521c99793c4f77b16658b8ac73f22ae588f29f1e2c86a180b"
       def install
         bin.install "cos"
       end
     end
     if Hardware::CPU.arm?
-      url "https://software.cosine.sh/cli/release/2.0.30/cos-darwin-arm64.zip"
-      sha256 "583869160f4041978ac14d4c3ca4e2dba15c0bf642830bcbd040aa7176662674"
+      url "https://software.cosine.sh/cli/release/2.0.31/cos-darwin-arm64.zip"
+      sha256 "bd97c76aa4bbfaa0aedd5765b47d200f211dbfcfb6161ed021b27d2d597c66f0"
       def install
         bin.install "cos"
       end
@@ -25,15 +25,15 @@ class Cos < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://software.cosine.sh/cli/release/2.0.30/cos-linux-amd64-glibc2.35.zip"
-      sha256 "3850faeb13179d24579a6fa2e0dde60886de0efc1de87169cb844d97e601abb5"
+      url "https://software.cosine.sh/cli/release/2.0.31/cos-linux-amd64-glibc2.35.zip"
+      sha256 "1338b62813130eb80ffc70330c8a83ef6e4be69e1dd9713ac4b75a9320615787"
       def install
         bin.install "cos"
       end
     end
     if Hardware::CPU.arm?
-      url "https://software.cosine.sh/cli/release/2.0.30/cos-linux-arm64.zip"
-      sha256 "6243c04d21b05a6edb8ca0080dc3246cd5e9d3a05d7d611ff9fad1099c36a407"
+      url "https://software.cosine.sh/cli/release/2.0.31/cos-linux-arm64.zip"
+      sha256 "7abfab20a1d7b00b82f919e7644d7e031bec5e3393713f25d4eefc80509428f8"
       def install
         bin.install "cos"
       end

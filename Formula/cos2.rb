@@ -4,12 +4,12 @@
 class Cos2 < Formula
   desc "Nightly builds of the Cosine CLI"
   homepage "https://cosine.sh/cli"
-  version "nightly-1366"
+  version "nightly-1367"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://software.cosine.sh/cli/nightly/nightly-1366/cos-darwin-arm64.zip"
-      sha256 "5f565f65de78529f61e548b8e244b725459ca6a435cb1b2462c729c813f4d0ea"
+      url "https://software.cosine.sh/cli/nightly/nightly-1367/cos-darwin-arm64.zip"
+      sha256 "59c0750fc8df4e38268ecba0ea7a4617327ccb094b71a8b3e7edad290e07c7e4"
       def install
         bin.install "cos" => "cos2"
       end
@@ -18,15 +18,15 @@ class Cos2 < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://software.cosine.sh/cli/nightly/nightly-1366/cos-linux-amd64-glibc2.35.zip"
-      sha256 "99b6c89b9a36caf3e798affb47fb4506dc98304a2d4c64f4eee70196ed5da4df"
+      url "https://software.cosine.sh/cli/nightly/nightly-1367/cos-linux-amd64-glibc2.35.zip"
+      sha256 "1c47a8218464a18c5bcbdd70911be2906b574aa5161d5b5582728f1794d7f72a"
       def install
         bin.install "cos" => "cos2"
       end
     end
     if Hardware::CPU.arm?
-      url "https://software.cosine.sh/cli/nightly/nightly-1366/cos-linux-arm64.zip"
-      sha256 "25fdf959df2b15bdee58c96d3b4d8850f253a4bcf69db09bd31299b6cfce5f40"
+      url "https://software.cosine.sh/cli/nightly/nightly-1367/cos-linux-arm64.zip"
+      sha256 "3c15e590949f5492997509cf166d6509579a54850b299d9cc601db4b2019b4c7"
       def install
         bin.install "cos" => "cos2"
       end
